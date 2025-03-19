@@ -1,8 +1,11 @@
-import './App.css'; // Archivo de estilos CSS
+import RouterComponent from './routes/RoutesApp';
+import './App.css';
 
 const App = () => {
   return (
-<></>
+    <>
+      <RouterComponent />
+    </>
   );
 };
 
