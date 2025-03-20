@@ -1,3 +1,32 @@
 #root {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.light {
+  background: linear-gradient(45deg, #bdc3c7, #dfe6e9, #ecf0f1);
+  background-size: 600% 600%;
+  animation: animation 7s ease infinite;
+  color: black;
+}
+
+.dark {
+  background: linear-gradient(45deg, #2c3e50, #34495e, #7f8c8d);
+  background-size: 600% 600%;
+  animation: animation 7s ease infinite;
+  color: white;
+}
+
+@keyframes animation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }

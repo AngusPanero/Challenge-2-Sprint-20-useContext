@@ -1,0 +1,45 @@
+.pages-links{
+    display: flex;
+    gap: .7rem;
+}
+
+.light-link{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.dark-link{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.cv-text{
+    text-align: center;
+    width: 60rem;
+}
+
+.strong-text{
+    font-size: 1.5rem;
+}
+
+.img-profile{
+    width: 17rem;
+    height: auto;
+    border-radius: 95px;
+    transform: scale(1);
+    transition: 1.7s;
+}
+
+.img-profile:hover{
+    width: 17rem;
+    height: auto;
+    border-radius: 95px;
+    transform: scale(1.1);
+    transition: 1.7s;
+}

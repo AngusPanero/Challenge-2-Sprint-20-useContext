@@ -1,10 +1,15 @@
 import RouterComponent from './routes/RoutesApp';
+import { ThemeProvider } from './themes/ThemeContext';
+import ButtonComponent from './components/Button';
 import './App.css';
 
 const App = () => {
   return (
     <>
-      <RouterComponent />
+      <ThemeProvider>
+        <RouterComponent />
+        <ButtonComponent />
+      </ThemeProvider>
     </>
   );
 };
