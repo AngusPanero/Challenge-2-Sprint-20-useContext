@@ -5,7 +5,7 @@ import "../../src/Routes.css"
 const ThemeContext = createContext()
 
 const ThemeProvider = ({ children }) => {
-    const [ theme, setTheme ] = useState("light")
+    const [ theme, setTheme ] = useState("dark")
 
     const changeTheme = (newTheme) => {
         setTheme(newTheme)
